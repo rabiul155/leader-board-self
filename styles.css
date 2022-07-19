@@ -1,0 +1,213 @@
+body {
+
+    background-color: #E5E5E5;
+    margin: 0%;
+}
+
+/* navbar sectio */
+.navbar-section {
+    background: blue;
+
+    width: 100%;
+    margin-bottom: 30px;
+
+
+}
+
+.navbar-area {
+    width: 900px;
+    align-items: center;
+
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .left-nav {
+    display: flex;
+
+    align-items: center;
+}
+
+.navbar .right-nav {
+    display: flex;
+
+    align-items: center;
+}
+
+.navbar img {
+    height: 50px;
+
+    width: 50px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+/* player style  */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.top-player-section {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 900px;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 9px;
+
+
+
+}
+
+.player-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+    margin-top: 0%;
+}
+
+.players .player img {
+    width: 50px;
+    height: 50px;
+}
+
+.players .player .player-name {
+    margin-left: 10px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.hr-line {
+    margin-top: 30px;
+    color: black;
+
+}
+
+/* top blog section  */
+.course-info {}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.blogs .blog .blog-info {
+    margin-left: 30px;
+}
+
+.blog {
+    display: flex;
+
+}
+
+.blog img {
+    width: 177px;
+    height: 117px;
+
+}
+
+/* latest courses sectio  */
+.course-info {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 900px;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 9px;
+
+}
+
+.latest-course {
+    margin-top: 330px;
+}
+
+.course-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.courses .course img {
+    width: 224px;
+    height: 104px;
+
+
+}
+
+.course .rating {
+    display: flex;
+
+
+
+}
+
+.author {
+    color: orange;
+}
+
+.fa-star.golden {
+    color: gold;
+}
+
+.fa-star.silver {
+    color: silver;
+}
+
+.rating .rating-point {
+    color: gray;
+    margin-left: 10px;
+}
+
+.rating .clock {
+    margin-left: 25px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
